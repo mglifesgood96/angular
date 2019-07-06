@@ -1,0 +1,21 @@
+<div class="container">
+<div class="table-responsive">
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nazwa firmy</th>
+          <th scope="col">Siedziba</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr *ngFor="let client of clients;">
+            <td></td>
+            <td>{{client.companyName}}</td>
+            <td>{{client.locationAdress}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </div>
+  
